@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <actionCalls>
-        <name>Case_Creation</name>
-        <label>Case Creation</label>
+        <name>Case_Details</name>
+        <label>Case Details</label>
         <locationX>1530</locationX>
         <locationY>862</locationY>
         <actionName>Case.Case_Details</actionName>
@@ -723,7 +723,7 @@
         <locationY>864</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Case_Creation</targetReference>
+            <targetReference>Case_Details</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
