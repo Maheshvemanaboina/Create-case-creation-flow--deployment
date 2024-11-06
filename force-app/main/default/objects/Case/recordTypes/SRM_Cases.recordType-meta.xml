@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SRM_Cases</fullName>
+    <active>true</active>
+    <businessProcess>Chatter Cases</businessProcess>
+    <description>RT created to allow SRM users to access SRM cases created through the Help desk screen flow</description>
+    <label>SRM Cases</label>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chatter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Case Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Visit Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Following Customer Visit Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For Other Dept%2FOpco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Answer Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Enough Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question Resolved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Application Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOM issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial approval issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costs are not up to date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Visit Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer%2FSales Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dashboard not working %2F missing data in dashboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enable price lists for customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error in the quoting process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FC Internal Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For Other Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingredient Functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listings not available %2F integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Match Competitor Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not grounded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nutritional Knowhow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order handling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Management Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotion Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Make</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questionnaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26D Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recipe%2FProcessing Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remaining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26OP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP approval issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong target%2Ffloor prices %28commercial manual%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
